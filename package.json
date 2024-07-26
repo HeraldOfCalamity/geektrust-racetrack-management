@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/HeraldOfCalamity/geektrust-racetrack-management/issues"
   },
-  "homepage": "https://github.com/HeraldOfCalamity/geektrust-racetrack-management#readme"
+  "homepage": "https://github.com/HeraldOfCalamity/geektrust-racetrack-management#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  }
 }
