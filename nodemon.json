@@ -1,10 +1,6 @@
 {
-    "watch": [
-        "src"
-    ],
-    "ext": "ts,json",
-    "ignore": [
-        "test"
-    ],
-    "exec": "ts-node ./src/geektrust.ts"
+  "watch": ["src"],
+  "ext": "ts,json",
+  "ignore": ["test"],
+  "exec": "ts-node ./src/geektrust.ts"
 }
