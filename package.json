@@ -1,0 +1,20 @@
+{
+  "name": "racetrack-management",
+  "version": "1.0.0",
+  "description": "Solution to geektrust coding challenge.",
+  "main": "geektrust.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeraldOfCalamity/geektrust-racetrack-management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeraldOfCalamity/geektrust-racetrack-management/issues"
+  },
+  "homepage": "https://github.com/HeraldOfCalamity/geektrust-racetrack-management#readme"
+}
