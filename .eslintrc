@@ -1,0 +1,28 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "semi": [
+            "warn",
+            "always"
+        ],
+        "curly": "error",
+        "no-empty": "error",
+        "@typescript-eslint/no-explicit-any": [
+            "error",
+            {
+                "fixToUnknown": true
+            }
+        ],
+        "@typescript-eslint/explicit-function-return-type": "error",
+        "@typescript-eslint/explicit-member-accessibility": "error"
+    }
+}
