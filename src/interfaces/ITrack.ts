@@ -1,7 +1,7 @@
 import Vehicle from '../models/Vehicle';
 
-export default interface Track {
+export default interface ITrack {
   getTrackType(): string;
 
-  getTrachVehicles(): Vehicle[];
+  getTrackVehicles(): Vehicle[];
 }
