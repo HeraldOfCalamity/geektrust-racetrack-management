@@ -1,5 +1,5 @@
 export default interface IOperable<T> {
-  add(a: T, b: T): T;
+  add(item: T): T;
 
-  substract(a: T, b: T): T;
+  substract(item: T): T;
 }
