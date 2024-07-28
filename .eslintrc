@@ -9,7 +9,6 @@
     "prettier"
   ],
   "rules": {
-    "semi": ["warn", "always"],
     "quotes": ["error", "single"],
     "curly": "error",
     "no-empty": "error",
