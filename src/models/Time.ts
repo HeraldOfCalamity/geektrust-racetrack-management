@@ -1,4 +1,4 @@
-import IComparable from '../interfaces/IComparable';
+import { IComparable, Comparator } from '../interfaces/IComparable';
 import IOperable from '../interfaces/IOperable';
 
 export default class Time implements IComparable<Time>, IOperable<Time> {
@@ -28,7 +28,7 @@ export default class Time implements IComparable<Time>, IOperable<Time> {
     throw new Error('Method not implemented.');
   }
 
-  public compareTo(item: Time): 0 | 1 | -1 {
+  public compareTo(item: Time): Comparator {
     throw new Error('Method not implemented.');
   }
 
