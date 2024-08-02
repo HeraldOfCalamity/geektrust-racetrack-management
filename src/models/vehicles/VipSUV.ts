@@ -5,9 +5,9 @@ export default class VipSUV extends Vehicle {
     return 'SUV';
   }
   public getFeePerHour(): number {
-    throw new Error('Method not implemented.');
+    return 300;
   }
   public getMaxSlotsInTrack(): number {
-    throw new Error('Method not implemented.');
+    return 1;
   }
 }
